@@ -1,6 +1,5 @@
 import { render, screen } from "@testing-library/react";
 import '@testing-library/jest-dom';
-
 import App from "../App";
 
 // Portfolio Elements
@@ -64,7 +63,7 @@ test("displays the correct links", () => {
   );
 });
 
-// Newsletter Form - Initial State
+// Newsletter Form — Initial State
 test("the form includes text inputs for name and email address", () => {
   // your test code here
 });
@@ -77,7 +76,7 @@ test("the checkboxes are initially unchecked", () => {
   // your test code here
 });
 
-// Newsletter Form - Adding Responses
+// Newsletter Form — Behavior
 test("the page shows information the user types into the name and email address form fields", () => {
   // your test code here
 });

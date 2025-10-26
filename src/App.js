@@ -18,6 +18,15 @@ function App() {
         <a href="https://github.com">GitHub</a>
         <a href="https://linkedin.com">LinkedIn</a>
       </div>
+
+      {/* --- Newsletter Form --- */}
+      <form>
+        <label htmlFor="name">Name</label>
+        <input id="name" type="text" />
+
+        <label htmlFor="email">Email</label>
+        <input id="email" type="text" />
+      </form>
     </main>
   );
 }
